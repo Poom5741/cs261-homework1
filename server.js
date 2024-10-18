@@ -49,12 +49,8 @@ app.post("/auth/login", async (req, res) => {
 
     const data = response.data;
 
-    if (data.status) {
-      // If login is successful, return success and user data
-      return res.status(200).json({ message: "Login successful", user: data });
-    } else {
-      return res.status(401).json({ message: "Invalid credentials" });
-    }
+    // If login is successful, return success and user data
+    return res.status(200).json({ message: "Login successful", user: data });
   } catch (error) {
     if (error.response && error.response.status === 400) {
       // If the authentication API returns a 400 error, it means invalid credentials
