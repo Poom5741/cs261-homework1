@@ -61,6 +61,7 @@ Create a `.env` file at the root of your project and add any necessary environme
 ```bash
 # .env
 PORT=80
+APPLICATION_KEY= tu rest api token for each project
 ```
 
 ## 🚀 Running the Project
