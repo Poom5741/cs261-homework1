@@ -1,0 +1,61 @@
+/* Global background color */
+body {
+  background-color: #f8de22;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for form and card containers */
+.card {
+  background-color: #f94c10;
+  color: white;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling */
+h2,
+.card-header,
+label {
+  color: #900c3f;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Input fields */
+.form-control {
+  background-color: white;
+  color: #900c3f;
+  border: 2px solid #900c3f;
+}
+
+.form-control:focus {
+  border-color: #c70039;
+  box-shadow: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #c70039;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #900c3f;
+}
+
+.btn-danger {
+  background-color: #c70039;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #900c3f;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+}
